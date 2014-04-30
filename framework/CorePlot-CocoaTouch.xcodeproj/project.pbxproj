@@ -81,78 +81,6 @@
 		07B69ABA12B6281100F4C16C /* CPTMutableTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B69AB812B6281100F4C16C /* CPTMutableTextStyle.m */; };
 		07B69B7112B62E9600F4C16C /* CPTMutableLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B69B6F12B62E9600F4C16C /* CPTMutableLineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B69B7212B62E9600F4C16C /* CPTMutableLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B69B7012B62E9600F4C16C /* CPTMutableLineStyle.m */; };
-		07EDE5C218D16F1E001BA765 /* CPTNumericDataType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CADE3911B188B600D36017 /* CPTNumericDataType.h */; };
-		07EDE5C318D16F1E001BA765 /* CPTNumericData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CADE3011B188A800D36017 /* CPTNumericData.h */; };
-		07EDE5C418D16F1E001BA765 /* CPTMutableNumericData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CADE3D11B188C500D36017 /* CPTMutableNumericData.h */; };
-		07EDE5C518D16F1E001BA765 /* CPTNumericData+TypeConversion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CADE3211B188A800D36017 /* CPTNumericData+TypeConversion.h */; };
-		07EDE5C618D16F1E001BA765 /* CPTMutableNumericData+TypeConversion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3CAFB391229E48200F5C989 /* CPTMutableNumericData+TypeConversion.h */; };
-		07EDE5C718D16F1E001BA765 /* CPTDefinitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82A30FB89E610035D8DA /* CPTDefinitions.h */; };
-		07EDE5C818D16F1E001BA765 /* CPTExceptions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82A50FB89E610035D8DA /* CPTExceptions.h */; };
-		07EDE5C918D16F1E001BA765 /* CPTUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82A70FB89E610035D8DA /* CPTUtilities.h */; };
-		07EDE5CA18D16F1E001BA765 /* CPTPlotRange.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82AB0FB89E610035D8DA /* CPTPlotRange.h */; };
-		07EDE5CB18D16F1E001BA765 /* CPTMutablePlotRange.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3A695DF146A196100AF5653 /* CPTMutablePlotRange.h */; };
-		07EDE5CC18D16F1E001BA765 /* CPTFunctionDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C31A40BD17ABD6C60020C5C6 /* CPTFunctionDataSource.h */; };
-		07EDE5CD18D16F1E001BA765 /* CPTLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B826F0FB89E610035D8DA /* CPTLayer.h */; };
-		07EDE5CE18D16F1E001BA765 /* CPTBorderedLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 077F28510FE18048000BCA52 /* CPTBorderedLayer.h */; };
-		07EDE5CF18D16F1E001BA765 /* CPTResponder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07AEF30110BBF99A0012BEFF /* CPTResponder.h */; };
-		07EDE5D018D16F1E001BA765 /* CPTAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3C68318166138E200340E39 /* CPTAnimation.h */; };
-		07EDE5D118D16F1E001BA765 /* CPTAnimationOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3C6831A166138E200340E39 /* CPTAnimationOperation.h */; };
-		07EDE5D218D16F1E001BA765 /* CPTAnimationPeriod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3C6831C166138E200340E39 /* CPTAnimationPeriod.h */; };
-		07EDE5D318D16F1E001BA765 /* CPTAnnotation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0718DE4511D1EDBA00AF4851 /* CPTAnnotation.h */; };
-		07EDE5D418D16F1E001BA765 /* CPTAnnotationHostLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0718DE4711D1EDBA00AF4851 /* CPTAnnotationHostLayer.h */; };
-		07EDE5D518D16F1E001BA765 /* CPTLayerAnnotation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0718DE4911D1EDBA00AF4851 /* CPTLayerAnnotation.h */; };
-		07EDE5D618D16F1E001BA765 /* CPTPlotSpaceAnnotation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0718DE4B11D1EDBA00AF4851 /* CPTPlotSpaceAnnotation.h */; };
-		07EDE5D718D16F1E001BA765 /* CPTConstraints.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 074FADF7112024C500394B90 /* CPTConstraints.h */; };
-		07EDE5D818D16F1E001BA765 /* CPTTextLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B829E0FB89E610035D8DA /* CPTTextLayer.h */; };
-		07EDE5D918D16F1E001BA765 /* CPTTextStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07A62FB30FE2234900CD765C /* CPTTextStyle.h */; };
-		07EDE5DA18D16F1E001BA765 /* CPTMutableTextStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07B69AB712B6281100F4C16C /* CPTMutableTextStyle.h */; };
-		07EDE5DB18D16F1E001BA765 /* CPTTextStylePlatformSpecific.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A66051102723E00FE24BB /* CPTTextStylePlatformSpecific.h */; };
-		07EDE5DC18D16F1E001BA765 /* CPTColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 070CB8300FC9DEA800F3152B /* CPTColor.h */; };
-		07EDE5DD18D16F1E001BA765 /* CPTColorSpace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 070CB8320FC9DEA800F3152B /* CPTColorSpace.h */; };
-		07EDE5DE18D16F1E001BA765 /* CPTGradient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82980FB89E610035D8DA /* CPTGradient.h */; };
-		07EDE5DF18D16F1E001BA765 /* CPTImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B829A0FB89E610035D8DA /* CPTImage.h */; };
-		07EDE5E018D16F1E001BA765 /* CPTLineCap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3D3AD3213DF8E9D0004EA73 /* CPTLineCap.h */; };
-		07EDE5E118D16F1E001BA765 /* CPTLineStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B829C0FB89E610035D8DA /* CPTLineStyle.h */; };
-		07EDE5E218D16F1E001BA765 /* CPTMutableLineStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07B69B6F12B62E9600F4C16C /* CPTMutableLineStyle.h */; };
-		07EDE5E318D16F1E001BA765 /* CPTPathExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 077F28530FE18048000BCA52 /* CPTPathExtensions.h */; };
-		07EDE5E418D16F1E001BA765 /* CPTShadow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C32EE1BB13EC4AF900038266 /* CPTShadow.h */; };
-		07EDE5E518D16F1E001BA765 /* CPTMutableShadow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C32EE1C613EC4C7200038266 /* CPTMutableShadow.h */; };
-		07EDE5E618D16F1E001BA765 /* CPTFill.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82880FB89E610035D8DA /* CPTFill.h */; };
-		07EDE5E718D16F1E001BA765 /* CPTCalendarFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C349DCAE151AAFAB00BFD6A7 /* CPTCalendarFormatter.h */; };
-		07EDE5E818D16F1E001BA765 /* CPTTimeFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07A2E71C102DFAD300809BC5 /* CPTTimeFormatter.h */; };
-		07EDE5E918D16F1E001BA765 /* NSCoderExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3978E0E13CE65C600A420D9 /* NSCoderExtensions.h */; };
-		07EDE5EA18D16F1E001BA765 /* NSDecimalNumberExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82B10FB89E610035D8DA /* NSDecimalNumberExtensions.h */; };
-		07EDE5EB18D16F1E001BA765 /* NSNumberExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82B30FB89E610035D8DA /* NSNumberExtensions.h */; };
-		07EDE5EC18D16F1E001BA765 /* CPTGraph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82B60FB89E610035D8DA /* CPTGraph.h */; };
-		07EDE5ED18D16F1E001BA765 /* CPTXYGraph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82B80FB89E610035D8DA /* CPTXYGraph.h */; };
-		07EDE5EE18D16F1E001BA765 /* CPTPlotAreaFrame.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82C10FB89E610035D8DA /* CPTPlotAreaFrame.h */; };
-		07EDE5EF18D16F1E001BA765 /* CPTPlotArea.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65A311025EDF00FE24BB /* CPTPlotArea.h */; };
-		07EDE5F018D16F1E001BA765 /* CPTLimitBand.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C318F4BF11EA18A400595FF9 /* CPTLimitBand.h */; };
-		07EDE5F118D16F1E001BA765 /* CPTPlotSpace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82C60FB89E610035D8DA /* CPTPlotSpace.h */; };
-		07EDE5F218D16F1E001BA765 /* CPTXYPlotSpace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 074D7BC30FD6B65E006011BC /* CPTXYPlotSpace.h */; };
-		07EDE5F318D16F1E001BA765 /* CPTPlotGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C30C85A91047428100181766 /* CPTPlotGroup.h */; };
-		07EDE5F418D16F1E001BA765 /* CPTPlot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82D20FB89E610035D8DA /* CPTPlot.h */; };
-		07EDE5F518D16F1E001BA765 /* CPTBarPlot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82DA0FB89E610035D8DA /* CPTBarPlot.h */; };
-		07EDE5F618D16F1E001BA765 /* CPTPieChart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC74A2C010FC087800E7E90D /* CPTPieChart.h */; };
-		07EDE5F718D16F1E001BA765 /* CPTRangePlot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0C047BE12D6568500DA8047 /* CPTRangePlot.h */; };
-		07EDE5F818D16F1E001BA765 /* CPTScatterPlot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82D40FB89E610035D8DA /* CPTScatterPlot.h */; };
-		07EDE5F918D16F1E001BA765 /* CPTPlotSymbol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC9B82D00FB89E610035D8DA /* CPTPlotSymbol.h */; };
-		07EDE5FA18D16F1E001BA765 /* CPTAxis.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 070CB8390FC9DED400F3152B /* CPTAxis.h */; };
-		07EDE5FB18D16F1E001BA765 /* CPTAxisSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 070CB83D0FC9DED400F3152B /* CPTAxisSet.h */; };
-		07EDE5FC18D16F1E001BA765 /* CPTGridLines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65B111025F8A00FE24BB /* CPTGridLines.h */; };
-		07EDE5FD18D16F1E001BA765 /* CPTGridLineGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C38DD49511A04B99002A68E7 /* CPTGridLineGroup.h */; };
-		07EDE5FE18D16F1E001BA765 /* CPTAxisLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65B511025FA900FE24BB /* CPTAxisLabel.h */; };
-		07EDE5FF18D16F1E001BA765 /* CPTAxisTitle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65B711025FA900FE24BB /* CPTAxisTitle.h */; };
-		07EDE60018D16F1E001BA765 /* CPTAxisLabelGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65BD11025FB300FE24BB /* CPTAxisLabelGroup.h */; };
-		07EDE60118D16F1E001BA765 /* CPTXYAxis.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65C111025FCC00FE24BB /* CPTXYAxis.h */; };
-		07EDE60218D16F1E001BA765 /* CPTXYAxisSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C35A65C311025FCC00FE24BB /* CPTXYAxisSet.h */; };
-		07EDE60318D16F1E001BA765 /* CPTLegend.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3920ACD1395B7680045F3BB /* CPTLegend.h */; };
-		07EDE60418D16F1E001BA765 /* CPTLegendEntry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C30550E71399BE2000E0151F /* CPTLegendEntry.h */; };
-		07EDE60518D16F1E001BA765 /* CPTTheme.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 072E3F9B0FE2FF7300ACF62F /* CPTTheme.h */; };
-		07EDE60618D16F83001BA765 /* CPTPlatformSpecificDefines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0789EFBA0FB9F97F00C0A613 /* CPTPlatformSpecificDefines.h */; };
-		07EDE60718D16F83001BA765 /* CPTPlatformSpecificCategories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0789EFB80FB9F97F00C0A613 /* CPTPlatformSpecificCategories.h */; };
-		07EDE60818D16F83001BA765 /* CPTPlatformSpecificFunctions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0789EFBC0FB9F97F00C0A613 /* CPTPlatformSpecificFunctions.h */; };
-		07EDE60918D16F83001BA765 /* CPTGraphHostingView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC79F1D30FD1DC1A00510976 /* CPTGraphHostingView.h */; };
 		07FCF2D4115B54DE00E46606 /* _CPTSlateTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FCF2D2115B54DE00E46606 /* _CPTSlateTheme.m */; };
 		BC4FAF29100D7DF300811DD3 /* NSDecimalNumberExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B82B10FB89E610035D8DA /* NSDecimalNumberExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC74A2C210FC087800E7E90D /* CPTPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = BC74A2C010FC087800E7E90D /* CPTPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -302,81 +230,9 @@
 		07EDE5C118D16EAC001BA765 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				07EDE60618D16F83001BA765 /* CPTPlatformSpecificDefines.h in CopyFiles */,
-				07EDE60718D16F83001BA765 /* CPTPlatformSpecificCategories.h in CopyFiles */,
-				07EDE60818D16F83001BA765 /* CPTPlatformSpecificFunctions.h in CopyFiles */,
-				07EDE60918D16F83001BA765 /* CPTGraphHostingView.h in CopyFiles */,
-				07EDE5C218D16F1E001BA765 /* CPTNumericDataType.h in CopyFiles */,
-				07EDE5C318D16F1E001BA765 /* CPTNumericData.h in CopyFiles */,
-				07EDE5C418D16F1E001BA765 /* CPTMutableNumericData.h in CopyFiles */,
-				07EDE5C518D16F1E001BA765 /* CPTNumericData+TypeConversion.h in CopyFiles */,
-				07EDE5C618D16F1E001BA765 /* CPTMutableNumericData+TypeConversion.h in CopyFiles */,
-				07EDE5C718D16F1E001BA765 /* CPTDefinitions.h in CopyFiles */,
-				07EDE5C818D16F1E001BA765 /* CPTExceptions.h in CopyFiles */,
-				07EDE5C918D16F1E001BA765 /* CPTUtilities.h in CopyFiles */,
-				07EDE5CA18D16F1E001BA765 /* CPTPlotRange.h in CopyFiles */,
-				07EDE5CB18D16F1E001BA765 /* CPTMutablePlotRange.h in CopyFiles */,
-				07EDE5CC18D16F1E001BA765 /* CPTFunctionDataSource.h in CopyFiles */,
-				07EDE5CD18D16F1E001BA765 /* CPTLayer.h in CopyFiles */,
-				07EDE5CE18D16F1E001BA765 /* CPTBorderedLayer.h in CopyFiles */,
-				07EDE5CF18D16F1E001BA765 /* CPTResponder.h in CopyFiles */,
-				07EDE5D018D16F1E001BA765 /* CPTAnimation.h in CopyFiles */,
-				07EDE5D118D16F1E001BA765 /* CPTAnimationOperation.h in CopyFiles */,
-				07EDE5D218D16F1E001BA765 /* CPTAnimationPeriod.h in CopyFiles */,
-				07EDE5D318D16F1E001BA765 /* CPTAnnotation.h in CopyFiles */,
-				07EDE5D418D16F1E001BA765 /* CPTAnnotationHostLayer.h in CopyFiles */,
-				07EDE5D518D16F1E001BA765 /* CPTLayerAnnotation.h in CopyFiles */,
-				07EDE5D618D16F1E001BA765 /* CPTPlotSpaceAnnotation.h in CopyFiles */,
-				07EDE5D718D16F1E001BA765 /* CPTConstraints.h in CopyFiles */,
-				07EDE5D818D16F1E001BA765 /* CPTTextLayer.h in CopyFiles */,
-				07EDE5D918D16F1E001BA765 /* CPTTextStyle.h in CopyFiles */,
-				07EDE5DA18D16F1E001BA765 /* CPTMutableTextStyle.h in CopyFiles */,
-				07EDE5DB18D16F1E001BA765 /* CPTTextStylePlatformSpecific.h in CopyFiles */,
-				07EDE5DC18D16F1E001BA765 /* CPTColor.h in CopyFiles */,
-				07EDE5DD18D16F1E001BA765 /* CPTColorSpace.h in CopyFiles */,
-				07EDE5DE18D16F1E001BA765 /* CPTGradient.h in CopyFiles */,
-				07EDE5DF18D16F1E001BA765 /* CPTImage.h in CopyFiles */,
-				07EDE5E018D16F1E001BA765 /* CPTLineCap.h in CopyFiles */,
-				07EDE5E118D16F1E001BA765 /* CPTLineStyle.h in CopyFiles */,
-				07EDE5E218D16F1E001BA765 /* CPTMutableLineStyle.h in CopyFiles */,
-				07EDE5E318D16F1E001BA765 /* CPTPathExtensions.h in CopyFiles */,
-				07EDE5E418D16F1E001BA765 /* CPTShadow.h in CopyFiles */,
-				07EDE5E518D16F1E001BA765 /* CPTMutableShadow.h in CopyFiles */,
-				07EDE5E618D16F1E001BA765 /* CPTFill.h in CopyFiles */,
-				07EDE5E718D16F1E001BA765 /* CPTCalendarFormatter.h in CopyFiles */,
-				07EDE5E818D16F1E001BA765 /* CPTTimeFormatter.h in CopyFiles */,
-				07EDE5E918D16F1E001BA765 /* NSCoderExtensions.h in CopyFiles */,
-				07EDE5EA18D16F1E001BA765 /* NSDecimalNumberExtensions.h in CopyFiles */,
-				07EDE5EB18D16F1E001BA765 /* NSNumberExtensions.h in CopyFiles */,
-				07EDE5EC18D16F1E001BA765 /* CPTGraph.h in CopyFiles */,
-				07EDE5ED18D16F1E001BA765 /* CPTXYGraph.h in CopyFiles */,
-				07EDE5EE18D16F1E001BA765 /* CPTPlotAreaFrame.h in CopyFiles */,
-				07EDE5EF18D16F1E001BA765 /* CPTPlotArea.h in CopyFiles */,
-				07EDE5F018D16F1E001BA765 /* CPTLimitBand.h in CopyFiles */,
-				07EDE5F118D16F1E001BA765 /* CPTPlotSpace.h in CopyFiles */,
-				07EDE5F218D16F1E001BA765 /* CPTXYPlotSpace.h in CopyFiles */,
-				07EDE5F318D16F1E001BA765 /* CPTPlotGroup.h in CopyFiles */,
-				07EDE5F418D16F1E001BA765 /* CPTPlot.h in CopyFiles */,
-				07EDE5F518D16F1E001BA765 /* CPTBarPlot.h in CopyFiles */,
-				07EDE5F618D16F1E001BA765 /* CPTPieChart.h in CopyFiles */,
-				07EDE5F718D16F1E001BA765 /* CPTRangePlot.h in CopyFiles */,
-				07EDE5F818D16F1E001BA765 /* CPTScatterPlot.h in CopyFiles */,
-				07EDE5F918D16F1E001BA765 /* CPTPlotSymbol.h in CopyFiles */,
-				07EDE5FA18D16F1E001BA765 /* CPTAxis.h in CopyFiles */,
-				07EDE5FB18D16F1E001BA765 /* CPTAxisSet.h in CopyFiles */,
-				07EDE5FC18D16F1E001BA765 /* CPTGridLines.h in CopyFiles */,
-				07EDE5FD18D16F1E001BA765 /* CPTGridLineGroup.h in CopyFiles */,
-				07EDE5FE18D16F1E001BA765 /* CPTAxisLabel.h in CopyFiles */,
-				07EDE5FF18D16F1E001BA765 /* CPTAxisTitle.h in CopyFiles */,
-				07EDE60018D16F1E001BA765 /* CPTAxisLabelGroup.h in CopyFiles */,
-				07EDE60118D16F1E001BA765 /* CPTXYAxis.h in CopyFiles */,
-				07EDE60218D16F1E001BA765 /* CPTXYAxisSet.h in CopyFiles */,
-				07EDE60318D16F1E001BA765 /* CPTLegend.h in CopyFiles */,
-				07EDE60418D16F1E001BA765 /* CPTLegendEntry.h in CopyFiles */,
-				07EDE60518D16F1E001BA765 /* CPTTheme.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
